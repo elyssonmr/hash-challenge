@@ -1,2 +1,3 @@
 # hash-challenge
-HashLabs challange
+
+HashLabs challenge
