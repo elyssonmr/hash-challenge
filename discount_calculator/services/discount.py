@@ -1,5 +1,5 @@
-from discount_calculator.grpc import discount_calculator_pb2_grpc
-from discount_calculator.grpc.discount_calculator_pb2 import (
+from discount_calculator.generated_grpc import discount_calculator_pb2_grpc
+from discount_calculator.generated_grpc.discount_calculator_pb2 import (
     CalcDiscountRequest,
     CalcDiscountReply
 )

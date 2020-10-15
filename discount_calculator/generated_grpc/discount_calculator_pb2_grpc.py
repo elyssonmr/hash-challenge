@@ -2,7 +2,8 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-import discount_calculator_pb2 as discount__calculator__pb2
+# Fixing the relative import on python3. Issue: https://github.com/protocolbuffers/protobuf/pull/7470
+from . import discount_calculator_pb2 as discount__calculator__pb2
 
 
 class DiscountCalculatorStub(object):
