@@ -8,6 +8,9 @@ run_discount_calculator:
 	@echo "Running Discount calculator service"
 	@python run_discount_calculator.py
 
+test_python:
+	@python -m pytest
+
 run_product_list:
 	@echo "Should run products list"
 

@@ -1,3 +1,4 @@
-from .discount import DiscountService
+from .discount_calculator import DiscountCalculator
 
-__all__ = [DiscountService]
+
+__all__ = [DiscountCalculator]
