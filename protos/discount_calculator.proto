@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service DiscountCalculator {
+    rpc CalculateDiscount (CalcDiscountRequest) returns (CalcDiscountReply) {}
+}
+
+message CalcDiscountRequest {
+    string produt_id = 1;
+    string user_id = 2;
+}
+
+message CalcDiscountReply {
+    string calculated_discount = 1;
+}
